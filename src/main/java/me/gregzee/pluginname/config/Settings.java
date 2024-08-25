@@ -1,4 +1,4 @@
-package xyz.strealex.pluginname.config;
+package me.gregzee.pluginname.config;
 
 import de.exlll.configlib.Comment;
 import de.exlll.configlib.Configuration;

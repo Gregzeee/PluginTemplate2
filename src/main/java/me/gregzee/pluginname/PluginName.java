@@ -1,10 +1,9 @@
-package xyz.strealex.pluginname;
+package me.gregzee.pluginname;
 
 import lombok.Getter;
+import me.gregzee.pluginname.commands.TestCommand;
+import me.gregzee.pluginname.config.ConfigManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.strealex.pluginname.commands.TestCommand;
-import xyz.strealex.pluginname.config.ConfigManager;
-
 import java.util.Optional;
 
 public final class PluginName extends JavaPlugin {

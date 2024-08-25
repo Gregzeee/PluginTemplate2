@@ -1,4 +1,4 @@
-package xyz.strealex.pluginname.commands;
+package me.gregzee.pluginname.commands;
 
 import dev.jorel.commandapi.CommandAPICommand;
 import org.bukkit.entity.Damageable;

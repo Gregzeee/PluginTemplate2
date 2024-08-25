@@ -1,11 +1,12 @@
-package xyz.strealex.pluginname.config;
+package me.gregzee.pluginname.config;
 
 import de.exlll.configlib.ConfigLib;
 import de.exlll.configlib.YamlConfigurationProperties;
 import de.exlll.configlib.YamlConfigurations;
 import lombok.Getter;
+import me.gregzee.pluginname.PluginName;
 import org.jetbrains.annotations.NotNull;
-import xyz.strealex.pluginname.PluginName;
+import me.gregzee.pluginname.PluginName;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;

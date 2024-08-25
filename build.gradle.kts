@@ -25,8 +25,8 @@ dependencies {
     annotationProcessor(libs.lombok)
 }
 
-group = "xyz.strealex.pluginname"
-version = "0.0.1-SNAPSHOT"
+group = "me.gregzee.pluginname"
+version = "1.0.0"
 description = "Plugin Description"
 
 tasks {
