@@ -1,18 +1,12 @@
-package xyz.strealex.pluginname;
+package me.gregzee.pluginname;
 
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.strealex.pluginname.commands.TestCommand;
-import xyz.strealex.pluginname.config.ConfigManager;
-import xyz.strealex.pluginname.listeners.TestListener;
-
-import java.util.Optional;
 
 public final class PluginName extends JavaPlugin {
 
     @Getter
     private static PluginName instance;
-    public ConfigManager configManager;
 
     @Override
     public void onEnable() {
@@ -39,19 +33,5 @@ public final class PluginName extends JavaPlugin {
 
     private void registerListeners() {
         new TestListener(instance).register();
-    }
-
-    /**
-     * Loads the plugin configuration.
-     *
-     * @return true if the configuration was loaded successfully, false otherwise.
-     */
-    private boolean loadConfig() {
-        final Optional<Throwable> error = configManager.loadConfig();
-        if (error.isPresent()) {
-            instance.getLogger().log(java.util.logging.Level.SEVERE, "Failed to load configuration", error.get());
-            return false;
-        }
-        return true;
     }
 }
