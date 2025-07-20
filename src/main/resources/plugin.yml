@@ -1,11 +1,6 @@
 name: TemplatePlugin
 version: ${version}
-main: xyz.strealex.pluginname.PluginName
+main: me.gregzee.pluginname.PluginName
 api-version: '1.21.4'
-authors: [ Strealex Development Team ]
 description: Your plugin description here.
 load: POSTWORLD
-depend: [CommandAPI]
-libraries:
-  - de.exlll:configlib-yaml:${configlibVersion}
-  - de.exlll:configlib-paper:${configlibVersion}
